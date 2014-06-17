@@ -12,6 +12,7 @@ gulp.task "monitor", ->
         ignore : [
             "webapps/*/public/"
             "webapps/*/tests/"
+            "webapps/*/node_modules/"
             "./lib/gulp/"
         ]
     }

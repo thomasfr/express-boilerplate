@@ -7,3 +7,5 @@ describe "foo", ->
         "foo".should.be.a "string"
     it "should fail on this test", ->
         "foo".should.equal false
+
+
